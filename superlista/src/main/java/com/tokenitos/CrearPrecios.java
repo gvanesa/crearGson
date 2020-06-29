@@ -15,7 +15,7 @@ import static com.tokenitos.LeerPrecios.leerEImprimir;
 
 public class CrearPrecios {
 
-    static final String RUTA_PRECIO = "precio.json";
+    static final String RUTA_PRECIO = "super.json";
     static File archivoPrecio = new File(RUTA_PRECIO);
 
     public static void main(String[] args) throws IOException {
@@ -32,11 +32,11 @@ public class CrearPrecios {
         Collection<Valor> lista = new ArrayList<>();
 
         lista.add(new Valor("caramelos",10));
-        lista.add(new Valor("chocolate",50));
-        lista.add(new Valor("papas",10));
-        lista.add(new Valor("batatas",10));
-        lista.add(new Valor("cebollas",10));
-        lista.add(new Valor("bananas",100));
+        lista.add(new Valor("chocolate",5));
+        lista.add(new Valor("papas",1));
+        lista.add(new Valor("batatas",1));
+        lista.add(new Valor("cebollas",1));
+        lista.add(new Valor("bananas",1));
 
 
 
