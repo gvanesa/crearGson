@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="256c1456-80d5-4fac-9fee-c9751eca4c87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/superlista.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/superlista.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tokenitos/CrearPrecios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tokenitos/CrearPrecios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tokenitos/LeerPrecios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tokenitos/LeerPrecios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tokenitos/CrearPrecios$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tokenitos/CrearPrecios.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tokenitos/CrearPrecios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tokenitos/LeerPrecios$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tokenitos/LeerPrecios$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tokenitos/LeerPrecios.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tokenitos/LeerPrecios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -62,6 +69,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testLeerPrecios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="superlista" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tokenitos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tokenitos" />
+      <option name="MAIN_CLASS_NAME" value="com.tokenitos.testLeerPrecios" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLeerPrecios.failingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="superlista" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tokenitos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tokenitos" />
+      <option name="MAIN_CLASS_NAME" value="com.tokenitos.testLeerPrecios" />
+      <option name="METHOD_NAME" value="failingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="superlista-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/superlista-1.0-SNAPSHOT.jar" />
       <method v="2" />
@@ -69,10 +107,14 @@
     <list>
       <item itemvalue="Application.CrearPrecios" />
       <item itemvalue="JAR Application.superlista-1.0-SNAPSHOT.jar" />
+      <item itemvalue="JUnit.testLeerPrecios" />
+      <item itemvalue="JUnit.testLeerPrecios.failingTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CrearPrecios" />
+        <item itemvalue="JUnit.testLeerPrecios" />
+        <item itemvalue="JUnit.testLeerPrecios.failingTest" />
         <item itemvalue="JAR Application.superlista-1.0-SNAPSHOT.jar" />
       </list>
     </recent_temporary>
@@ -108,69 +150,73 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="500" y="234" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.825@0.23.1440.825" timestamp="1593105627112" />
-    <state width="698" height="162" key="GridCell.Tab.0.bottom" timestamp="1593443628489">
+    <state width="668" height="201" key="GridCell.Tab.0.bottom" timestamp="1593701419689">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="699" height="213" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-81.1920.1080@0.0.1440.900" timestamp="1592337969248" />
-    <state width="698" height="140" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593201374233" />
-    <state width="698" height="162" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1593443628489" />
-    <state width="698" height="162" key="GridCell.Tab.0.center" timestamp="1593443628489">
+    <state width="1091" height="322" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593538733583" />
+    <state width="668" height="201" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1593701419689" />
+    <state width="668" height="201" key="GridCell.Tab.0.center" timestamp="1593701419689">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="699" height="213" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-81.1920.1080@0.0.1440.900" timestamp="1592337969247" />
-    <state width="698" height="140" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593201374232" />
-    <state width="698" height="162" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1593443628489" />
-    <state width="698" height="162" key="GridCell.Tab.0.left" timestamp="1593443628489">
+    <state width="1091" height="322" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593538733582" />
+    <state width="668" height="201" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1593701419689" />
+    <state width="668" height="201" key="GridCell.Tab.0.left" timestamp="1593701419688">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="699" height="213" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-81.1920.1080@0.0.1440.900" timestamp="1592337969246" />
-    <state width="698" height="140" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593201374232" />
-    <state width="698" height="162" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1593443628489" />
-    <state width="698" height="162" key="GridCell.Tab.0.right" timestamp="1593443628489">
+    <state width="1091" height="322" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593538733582" />
+    <state width="668" height="201" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1593701419688" />
+    <state width="668" height="201" key="GridCell.Tab.0.right" timestamp="1593701419689">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="699" height="213" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-81.1920.1080@0.0.1440.900" timestamp="1592337969248" />
-    <state width="698" height="140" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593201374232" />
-    <state width="698" height="162" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1593443628489" />
-    <state width="1398" height="158" key="GridCell.Tab.1.bottom" timestamp="1593088930320">
+    <state width="1091" height="322" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593538733583" />
+    <state width="668" height="201" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1593701419689" />
+    <state width="668" height="201" key="GridCell.Tab.1.bottom" timestamp="1593701419690">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="158" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593088515876" />
-    <state width="1398" height="158" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1593088930320" />
-    <state width="1398" height="158" key="GridCell.Tab.1.center" timestamp="1593088930319">
+    <state width="698" height="368" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593533541202" />
+    <state width="668" height="201" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1593701419690" />
+    <state width="668" height="201" key="GridCell.Tab.1.center" timestamp="1593701419690">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="158" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1593088515874" />
-    <state width="1398" height="158" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1593088930319" />
-    <state width="1398" height="158" key="GridCell.Tab.1.left" timestamp="1593088930318">
+    <state width="698" height="368" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1593533541201" />
+    <state width="668" height="201" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1593701419690" />
+    <state width="668" height="201" key="GridCell.Tab.1.left" timestamp="1593701419689">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="158" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1593088515873" />
-    <state width="1398" height="158" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1593088930318" />
-    <state width="1398" height="158" key="GridCell.Tab.1.right" timestamp="1593088930319">
+    <state width="698" height="368" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1593533541201" />
+    <state width="668" height="201" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1593701419689" />
+    <state width="668" height="201" key="GridCell.Tab.1.right" timestamp="1593701419690">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="158" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1593088515875" />
-    <state width="1398" height="158" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1593088930319" />
-    <state x="506" y="94" key="Maven.ArtifactSearchDialog" timestamp="1593444020536">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="698" height="368" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1593533541201" />
+    <state width="668" height="201" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1593701419690" />
+    <state x="506" y="109" key="Maven.ArtifactSearchDialog" timestamp="1593536611138">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="506" y="94" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1593444020536" />
-    <state x="506" y="109" key="Maven.ArtifactSearchDialog/0.23.1440.825@0.23.1440.825" timestamp="1592505817247" />
+    <state x="506" y="109" key="Maven.ArtifactSearchDialog/0.23.1440.825@0.23.1440.825" timestamp="1593536611138" />
     <state x="221" y="23" width="1024" height="825" key="SettingsEditor" timestamp="1593443617943">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1592192930021" />
     <state x="221" y="23" width="1024" height="825" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1593443617943" />
-    <state x="397" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1593443746516">
+    <state x="397" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1593696811656">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="397" y="268" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1593202505206" />
-    <state x="397" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.825@0.23.1440.825" timestamp="1593443746516" />
+    <state x="397" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.825@0.23.1440.825" timestamp="1593696811656" />
     <state x="362" y="188" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593084412871">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="362" y="188" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1593084412871" />
+    <state x="87" y="133" key="new project wizard" timestamp="1593697407280">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="87" y="133" key="new project wizard/0.23.1440.825@0.23.1440.825" timestamp="1593697407280" />
     <state x="634" y="172" width="670" height="676" key="search.everywhere.popup" timestamp="1592191323450">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
@@ -181,20 +227,20 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tokenitos/LeerPrecios.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tokenitos/LeerPrecios.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="24" />
+          <line>31</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tokenitos/CrearPrecios.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="25" />
+          <line>53</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="preciosasdas" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
