@@ -17,7 +17,7 @@ import static com.tokenitos.LeerPrecios.leerEImprimir;
 
 public class CrearPrecios {
 
-    static final String RUTA_PRECIO = "super3.json";
+    static final String RUTA_PRECIO = "super34.json";
     static File archivoPrecio = new File(RUTA_PRECIO);
 
     public static void main(String[] args) throws IOException {
@@ -46,14 +46,16 @@ public class CrearPrecios {
 
         //  bw.write(representacionBonita);
         // bw.close();
-
-
         // final Type tipoListaEmpleados = new TypeToken<List<Valor>>(){}.getType();
-        Class<Valor[]> x = Valor[].class;
 
-        final Valor[] preciosasdas = gson.fromJson(representacionBonita, x);
 
-        lista = Arrays.asList(preciosasdas);
+        //Class<Valor[]> x = Valor[].class;
+        //final Valor[] preciosasdas = gson.fromJson(representacionBonita, x);
+        //lista = Arrays.asList(preciosasdas);
+        System.out.println(leerEImprimir(archivoPrecio));
+
+
+        lista = Collections.synchronizedCollection(gson.fromJson(representacionBonita, ArrayList.class));
 
         System.out.println(leerEImprimir(archivoPrecio));
 
